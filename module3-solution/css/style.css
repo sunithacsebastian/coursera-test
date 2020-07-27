@@ -1,0 +1,166 @@
+body{
+	font-size: 16px;
+	color:white;
+	background-color: #460000;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+/** header Nav*/
+
+#header-nav{
+	background-color: #6f1e1e;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+
+}
+
+.navbar-brand h1{
+	font-family: 'Oxygen', sans-serif;
+    color: #ff9d49;
+    font-size: 1.6em;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand a:hover, .navbar brand a:focus{
+	text-decoration: none;
+}
+
+
+
+#nav-list{
+	margin-top: 10px;	
+
+}
+
+#nav-list a{
+	color: #ff9d49;
+	text-align: center;
+	font-size: 1.2EM;
+}
+
+#nav-list a:hover {
+	background-color: #E7E7E7 ;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #ff9d49;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #5a0000;
+}
+
+
+
+.navbar-header button.navbar-toggle , navbar-header .icon-bar
+{
+	border:1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear:both;
+	margin-top: -60px;
+}
+
+/*Home Page*/
+
+.container .jumbotron{
+			box-shadow: 0 0 50px #3F0C1F;
+		border:2px solid #3F0C1F ;
+
+}
+
+.container-fluid .row{
+	margin:0;
+}
+
+#home-content{
+/*position: relative;*/
+	height: 900px;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	background-color: #945200;
+	
+
+}
+
+#menu-option-chicken> h3{
+	color: #fff;
+}
+
+
+
+
+/*media queries*/
+
+@media (min-width:1200px)
+{
+
+	
+
+}
+
+
+@media (min-width:992px) and (max-width: 1199px)
+{ 
+
+	
+}
+
+@media (min-width:768px) and (max-width: 991px)
+{
+
+}
+
+@media (max-width:767px)
+{
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1{
+		padding-top: 20px;
+		font-size: 5vw;
+	}
+
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+
+	.navbar-brand p img{
+		height: 20px;
+	}
+
+
+   #collapsable-nav a{
+
+   	font-size: 1.2em;
+
+	}
+
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right:5px;
+}
+
+}
+
